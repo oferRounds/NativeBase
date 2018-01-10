@@ -152,7 +152,8 @@ declare module "native-base" {
 			contentOffset?: Object;
 			scrollEnabled?: boolean;
 			style?: ReactNative.ViewStyle;
-			contentContainerStyle?: ReactNative.ViewStyle;
+      contentContainerStyle?: ReactNative.ViewStyle;
+      onScroll?: (event?: any) => void;
 		}
 		/**
          * see Widget Button.js
